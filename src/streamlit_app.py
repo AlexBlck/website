@@ -4,7 +4,7 @@ import sys
 import inspect
 import os
 
-st.set_page_config(layout="wide", page_title="Alexander Black")
+st.set_page_config(layout="wide", page_title="Alexander Black", page_icon='🎓')
 
 container_buttons = st.beta_container()
 container_header = st.beta_container()
