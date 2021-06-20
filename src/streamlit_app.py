@@ -35,7 +35,7 @@ with container_buttons:
     st.markdown('---')
 
 if not any(page_buttons.values()):
-    page_buttons[list(page_buttons.keys())[0]] = True
+    page_buttons['Projects'] = True
 for name, pressed in zip(page_buttons.keys(), page_buttons.values()):
     if pressed:
         pages[name].display()
