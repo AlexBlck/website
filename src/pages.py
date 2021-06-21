@@ -32,7 +32,7 @@ class Projects:
                 'programme in Electronic Engineering. '
                 'It was then published at International Conference on Image Processing (ICIP) 2021.')
         with cols[1]:
-            st.image('https://github.com/AlexBlck/compsketch/raw/main/examples/header.png')
+            st.image('https://github.com/AlexBlck/compsketch/raw/main/examples/header.png', use_column_width=True)
 
         st.markdown('---')
 
